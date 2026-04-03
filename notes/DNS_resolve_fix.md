@@ -14,3 +14,6 @@ nameserver 100.125.21.250
 nslookup 你的SFSTurbo文件系统域名
 
 4. 验证正常解析后再执行挂载命令
+
+## 核心截图
+<img width="555" height="130" alt="image" src="https://github.com/user-attachments/assets/01edd0fe-a35f-470e-9320-19978bd5ca15" />
