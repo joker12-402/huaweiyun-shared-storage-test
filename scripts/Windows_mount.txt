@@ -1,0 +1,9 @@
+# 论文 5.1.1 Windows Server 挂载 CIFS/SFS Turbo 操作步骤
+1. 安装NFS客户端功能
+服务器管理器 -> 添加角色和功能 -> 功能 -> 勾选【NFS客户端】
+
+2. PowerShell执行挂载命令
+mount \\你的SFSTurbo文件系统域名\share Z:
+
+3. 验证挂载
+此电脑中查看Z盘是否正常显示，可执行dir命令查看目录内容
